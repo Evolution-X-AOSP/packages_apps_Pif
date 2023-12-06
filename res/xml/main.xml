@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023 The Evolution X Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:settings="http://schemas.android.com/apk/res/com.goolag.pif">
+
+    <!-- Start of spoofed values category -->
+    <PreferenceCategory  
+        android:key="category_spoofed_values"
+        android:title="@string/category_spoofed_values_title">
+
+        <Preference
+            android:key="product"
+            android:title="@string/product_title"
+            android:selectable="false" />
+
+        <Preference
+            android:key="device"
+            android:title="@string/device_title"
+            android:selectable="false" />
+
+        <Preference
+            android:key="manufacturer"
+            android:title="@string/manufacturer_title"
+            android:selectable="false" />
+
+        <Preference
+            android:key="brand"
+            android:title="@string/brand_title"
+            android:selectable="false" />
+
+        <Preference
+            android:key="model"
+            android:title="@string/model_title"
+            android:selectable="false" />
+
+        <Preference
+            android:key="fingerprint"
+            android:title="@string/fingerprint_title"
+            android:selectable="false" />
+
+        <Preference
+            android:key="security_patch"
+            android:title="@string/security_patch_title"
+            android:selectable="false" />
+
+        <Preference
+            android:key="first_api_level"
+            android:title="@string/first_api_level_title"
+            android:selectable="false" />
+
+        <Preference
+            android:key="id"
+            android:title="@string/id_title"
+            android:selectable="false" />
+
+        <Preference
+            android:key="type"
+            android:title="@string/type_title"
+            android:selectable="false" />
+
+        <Preference
+            android:key="tags"
+            android:title="@string/tags_title"
+            android:selectable="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

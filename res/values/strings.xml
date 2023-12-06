@@ -5,6 +5,19 @@
 -->
 <resources>
 
-    <string name="app_name">PifResources</string>
+    <string name="app_name">Pif</string>
+    <string name="pif_title">Play integrity fix</string>
+    <string name="category_spoofed_values_title">Spoofed values</string>
+    <string name="product_title">Product</string>
+    <string name="device_title">Device</string>
+    <string name="manufacturer_title">Manufacturer</string>
+    <string name="brand_title">Brand</string>
+    <string name="model_title">Model</string>
+    <string name="fingerprint_title">Fingerprint</string>
+    <string name="security_patch_title">Security patch</string>
+    <string name="first_api_level_title">First API level</string>
+    <string name="id_title">ID</string>
+    <string name="type_title">Type</string>
+    <string name="tags_title">TAGS</string>
 
 </resources>

@@ -12,13 +12,15 @@
 
     <!-- Device 1 -->
     <string-array name="device_1" translatable="false">
-        <item></item> <!-- BRAND -->
-        <item></item> <!-- MANUFACTURER -->
-        <item></item> <!-- ID -->
-        <item></item> <!-- DEVICE -->
         <item></item> <!-- PRODUCT -->
+        <item></item> <!-- DEVICE -->
+        <item></item> <!-- MANUFACTURER -->
+        <item></item> <!-- BRAND -->
         <item></item> <!-- MODEL -->
         <item></item> <!-- FINGERPRINT -->
+        <item></item> <!-- SECURITY_PATCH -->
+        <item></item> <!-- FIRST_API_LEVEL -->
+        <item></item> <!-- ID -->
         <item></item> <!-- TYPE -->
         <item></item> <!-- TAGS -->
     </string-array>

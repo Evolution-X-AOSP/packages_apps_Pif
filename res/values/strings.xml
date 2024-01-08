@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2023 The Evolution X Project
+     Copyright (C) 2023-2024 The Evolution X Project
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
 
     <string name="app_name">Pif</string>
     <string name="pif_title">Play integrity fix</string>
-    <string name="category_spoofed_values_title">Spoofed values</string>
     <string name="product_title">Product</string>
     <string name="device_title">Device</string>
     <string name="manufacturer_title">Manufacturer</string>

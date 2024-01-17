@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2023 The Evolution X Project
+ * Copyright (C) 2023-2024 The Evolution X Project
  * SPDX-License-Identifier: Apache-2.0
  */
 
@@ -11,7 +11,7 @@ import android.os.Bundle;
 import android.provider.Settings;
 
 import androidx.preference.Preference;
-import androidx.preference.PreferenceFragment;
+import androidx.preference.PreferenceFragmentCompat;
 import androidx.preference.PreferenceManager;
 
 import com.android.internal.util.evolution.PixelPropsUtils;
@@ -19,7 +19,7 @@ import com.android.settingslib.widget.TopIntroPreference;
 
 import com.goolag.pif.R;
 
-public class Pif extends PreferenceFragment
+public class Pif extends PreferenceFragmentCompat
         implements Preference.OnPreferenceChangeListener {
 
     private TopIntroPreference mIntroPreference;
@@ -38,7 +38,7 @@ public class Pif extends PreferenceFragment
 
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
-        addPreferencesFromResource(R.xml.main);
+        setPreferencesFromResource(R.xml.main, rootKey);
 
         String selectedArrayName = Settings.System.getString(
                 getContext().getContentResolver(), Settings.System.PPU_SPOOF_BUILD_GMS_ARRAY);
